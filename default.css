@@ -1,0 +1,20 @@
+.title {
+   color: #fff;
+   font-family:'Verdana', sans-serif;
+   font-size:48px;
+}
+
+.subtitle {
+	color: #fff;
+	font-family:'Verdana', sans-serif;
+	font-size:24px;
+}
+
+.background {
+	background:url("background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+	
