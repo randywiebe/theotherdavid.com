@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Submit Post</title>
+
+    <link rel="stylesheet" href="default.css">
+</head>
+<body class="background">
+
+    <div class="main-header">
+        <div class="container">
+            <div class="blog-header">
+                <h1 class="blog-title">The Other David</h1>
+                <p class="lead blog-description">The teachings and musings of another environmentalist named David.</p>
+            </div>
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="container">
+          <div>
+              <form action="submittedpost.php" method="post" type="POST">
+                  <p>Title</p>
+                  <input type="text" name="title" id="title"/>
+                  <p>Date</p>
+                  <input type="date" name="date" />
+                  <p>Author</p>
+                  <input type="text" name="author" />
+                  <p>Content</p>
+                  <textarea name="content" rows="10" cols="40"></textarea>
+                  <p>Image Gallery Link</p>
+                  <input type="url" name="imagegallery" />
+                  <p>Preview Image</p>
+                  <input type="url" name="previewimage1" min="1" />
+                  <p>Preview Image</p>
+                  <input type="url" name="previewimage2" />
+                  <p>Preview Image</p>
+                  <input type="url" name="previewimage3" />
+                  <br />
+                  <br />
+                  <input type="submit" value="Submit" />
+              </form>
+          </div>  
+        </div>
+    </div>
+</body>
+</html>
