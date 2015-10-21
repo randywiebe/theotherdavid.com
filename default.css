@@ -44,12 +44,17 @@ body {
     max-width: 25%;
 }
 
-a:link {
+p > a {
     color: #4cff00;
 }
 
-a:visited {
+p > a:visited {
     color: #0e8718;
+}
+
+.blog-header a:visited, a:link {
+    text-decoration: none;
+    color: #000;
 }
 
 .blog-post p {
